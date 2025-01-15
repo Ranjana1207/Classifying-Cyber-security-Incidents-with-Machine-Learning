@@ -41,23 +41,23 @@ Implementing strategies like SMOTE, class weights, and ensemble methods to deal 
 
 Fine-tuning model parameters for optimal performance.
 
-###  Business Use Cases
+##  Business Use Cases
 
 The developed solution can significantly improve multiple areas of cybersecurity operations:
 
-**Security Operations Centers (SOCs):** 
+**🔸 Security Operations Centers (SOCs):** 
 
 Automates the triage process and enhances analysts' decision-making.
 
-**Incident Response Automation:** 
+**🔸 Incident Response Automation:** 
 
 Provides SOCs with faster, data-driven insights and recommended actions.
 
-**Threat Intelligence:**
+**🔸 Threat Intelligence:**
 
 Increases the precision of detecting true and false positives using historical data.
 
-**Enterprise Security Management:** 
+**🔸 Enterprise Security Management:** 
 
 Reduces false positives, improves threat detection, and ensures swift incident response.
 
