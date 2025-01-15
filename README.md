@@ -46,36 +46,62 @@ Fine-tuning model parameters for optimal performance.
 The developed solution can significantly improve multiple areas of cybersecurity operations:
 
 Security Operations Centers (SOCs): 
+
 Automates the triage process and enhances analysts' decision-making.
 
 Incident Response Automation: 
+
 Provides SOCs with faster, data-driven insights and recommended actions.
 
 Threat Intelligence: 
+
 Increases the precision of detecting true and false positives using historical data.
 
 Enterprise Security Management: 
+
 Reduces false positives, improves threat detection, and ensures swift incident response.
 
 Project Approach
 1. Data Exploration and Preprocessing
-Initial Inspection: Load and examine the train dataset (train.csv) to understand the structure, data types, and distribution of the target variable.
-Exploratory Data Analysis (EDA): Visualize patterns, identify correlations, and detect anomalies, particularly class imbalances.
+
+Initial Inspection: 
+Load and examine the train dataset (train.csv) to understand the structure, data types, and distribution of the target variable.
+
+Exploratory Data Analysis (EDA): 
+Visualize patterns, identify correlations, and detect anomalies, particularly class imbalances.
 
 2. Model Building
-Train-Validation Split: Split the data into training and validation sets for effective model evaluation.
-Baseline Model: Start with simple models (e.g., Logistic Regression, Decision Trees) to set a performance benchmark.
-Advanced Models: Use Random Forest, XGBoost, and other sophisticated models for classification.
-Cross-Validation: Implement k-fold cross-validation to ensure robustness.
+ 
+Train-Validation Split: 
+Split the data into training and validation sets for effective model evaluation.
+
+Baseline Model: 
+Start with simple models (e.g., Logistic Regression, Decision Trees) to set a performance benchmark.
+
+Advanced Models: 
+Use Random Forest, XGBoost, and other sophisticated models for classification.
+
+Cross-Validation: 
+Implement k-fold cross-validation to ensure robustness.
 
 3. Model Evaluation
-Performance Metrics: Focus on Macro-F1 Score, Precision, and Recall to measure the model’s ability to generalize to unseen data.
-Hyperparameter Tuning: Use techniques like Grid Search or Random Search to optimize model performance.
-Handling Class Imbalance: Apply methods like SMOTE or adjust class weights to handle class imbalance.
+ 
+Performance Metrics: 
+Focus on Macro-F1 Score, Precision, and Recall to measure the model’s ability to generalize to unseen data.
+
+Hyperparameter Tuning: 
+Use techniques like Grid Search or Random Search to optimize model performance.
+
+Handling Class Imbalance: 
+Apply methods like SMOTE or adjust class weights to handle class imbalance.
 
 4. Final Evaluation
-Testing: Evaluate the final model using the test dataset (test.csv) and report key metrics.
-Comparison to Baseline: Ensure the model’s performance outperforms the baseline and holds up on unseen data.
+ 
+Testing: 
+Evaluate the final model using the test dataset (test.csv) and report key metrics.
+
+Comparison to Baseline: 
+Ensure the model’s performance outperforms the baseline and holds up on unseen data.
 
 Results
 Model Performance: A highly accurate classification model that predicts cybersecurity incident triage grades (TP, BP, FP).
