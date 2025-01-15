@@ -1,11 +1,11 @@
 # Classifying-Cyber-security-Incidents-with-Machine-Learning
-## Microsoft : Classifying Cybersecurity Incidents with Machine Learning
+### Microsoft : Classifying Cybersecurity Incidents with Machine Learning
 
-### Project Overview
+## Project Overview
 
 The Classifying Cybersecurity Incidents🚨 project is a machine learning-based solution designed to enhance the efficiency of Security Operation Centers (SOCs) at Microsoft. The project focuses on building a classification model that accurately predicts the triage grade of cybersecurity incidents, assisting SOC analysts in prioritizing their efforts and responding to threats efficiently.
 
-### The goal is to classify incidents as:
+## The goal is to classify incidents as:
 
 ⁕ True Positive (TP): A confirmed threat.
 
@@ -13,7 +13,7 @@ The Classifying Cybersecurity Incidents🚨 project is a machine learning-based 
 
 ⁕ False Positive (FP): A misidentified threat.
 
-### Key Features & Skills
+## Key Features & Skills
 
 This project allows you to dive deep into several crucial aspects of data science and machine learning:
 
@@ -61,7 +61,7 @@ Increases the precision of detecting true and false positives using historical d
 
 Reduces false positives, improves threat detection, and ensures swift incident response.
 
-### Project Approach
+## Project Approach
 **<ins>1. Data Exploration and Preprocessing</ins>**
 
 **(I) Initial Inspection:** 
@@ -114,23 +114,23 @@ Evaluate the final model using the test dataset (test.csv) and report key metric
 
 Ensure the model’s performance outperforms the baseline and holds up on unseen data.
 
-### Results:
+## Results:
 
-**Model Performance**: A highly accurate classification model that predicts cybersecurity incident triage grades (TP, BP, FP).
+**📌 Model Performance**: A highly accurate classification model that predicts cybersecurity incident triage grades (TP, BP, FP).
 
-**Feature Analysis**: Insights into which features influence model predictions the most.
+**📌 Feature Analysis**: Insights into which features influence model predictions the most.
 
-**Model Documentation**: Comprehensive process documentation, highlighting each phase from data collection to model evaluation.
+**📌 Model Documentation**: Comprehensive process documentation, highlighting each phase from data collection to model evaluation.
 
-### Evaluation Metrics
+## Evaluation Metrics
 
-**Macro-F1 Score:** Balances precision and recall, providing a holistic view of performance across all classes.
+**🔸 Macro-F1 Score:** Balances precision and recall, providing a holistic view of performance across all classes.
 
-**Precision:** Measures the proportion of true positive predictions out of all positive predictions.
+**🔸 Precision:** Measures the proportion of true positive predictions out of all positive predictions.
 
-**Recall:** Measures the model’s ability to identify all true positives, ensuring critical incidents are not missed.
+**🔸 Recall:** Measures the model’s ability to identify all true positives, ensuring critical incidents are not missed.
 
-### Dataset Overview:
+## Dataset Overview:
                
 The GUIDE dataset contains cybersecurity incident records annotated with triage grades (TP, BP, FP). 
                
@@ -138,11 +138,11 @@ The data is stratified and includes over 1 million triage-annotated incidents, e
 
 ### Features:
 
-**Evidence:** Individual pieces of evidence like IP addresses, emails, and user details.
+**🔸 Evidence:** Individual pieces of evidence like IP addresses, emails, and user details.
 
-**Alerts:** Aggregated evidence signaling a potential security incident.
+**🔸 Alerts:** Aggregated evidence signaling a potential security incident.
 
-**Incidents:** A collection of alerts representing a complete security threat scenario.
+**🔸 Incidents:** A collection of alerts representing a complete security threat scenario.
 
 ### Usage
 
