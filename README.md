@@ -7,28 +7,33 @@ The Classifying Cybersecurity Incidents🚨 project is a machine learning-based 
 
 The goal is to classify incidents as:
 
-*True Positive (TP): A confirmed threat.
-*Benign Positive (BP): A false alarm.
-*False Positive (FP): A misidentified threat.
+⁕True Positive (TP): A confirmed threat.
+⁕Benign Positive (BP): A false alarm.
+⁕False Positive (FP): A misidentified threat.
 
 Key Features & Skills
 
 This project allows you to dive deep into several crucial aspects of data science and machine learning:
 
-Data Preprocessing & Feature Engineering: 
+• Data Preprocessing & Feature Engineering: 
 Cleaning and transforming raw data into useful features for model training.
-Machine Learning Classification Techniques: 
+
+• Machine Learning Classification Techniques: 
 Employing algorithms like Random Forest, XGBoost, and others for incident classification.
-Evaluation Metrics: 
+
+• Evaluation Metrics: 
 Using Macro-F1 Score, Precision, and Recall to assess model performance.
-Cybersecurity Frameworks: 
+
+• Cybersecurity Frameworks: 
 Leveraging the MITRE ATT&CK framework for better understanding of cybersecurity data.
-Handling Imbalanced Datasets: 
+
+• Handling Imbalanced Datasets: 
 Implementing strategies like SMOTE, class weights, and ensemble methods to deal with imbalanced data.
-Model Optimization: 
+
+• Model Optimization: 
 Fine-tuning model parameters for optimal performance.
 
-Business Use Cases
+• Business Use Cases
 The developed solution can significantly improve multiple areas of cybersecurity operations:
 
 Security Operations Centers (SOCs): Automates the triage process and enhances analysts' decision-making.
