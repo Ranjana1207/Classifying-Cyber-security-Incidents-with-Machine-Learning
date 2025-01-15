@@ -7,9 +7,9 @@ The Classifying Cybersecurity Incidents🚨 project is a machine learning-based 
 
 The goal is to classify incidents as:
 
-True Positive (TP): A confirmed threat.
-Benign Positive (BP): A false alarm.
-False Positive (FP): A misidentified threat.
+*True Positive (TP): A confirmed threat.
+*Benign Positive (BP): A false alarm.
+*False Positive (FP): A misidentified threat.
 
 Key Features & Skills
 
