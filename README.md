@@ -1,11 +1,11 @@
-### Classifying-Cyber-security-Incidents-with-Machine-Learning
+# Classifying-Cyber-security-Incidents-with-Machine-Learning
 ## Microsoft : Classifying Cybersecurity Incidents with Machine Learning
 
-# Project Overview
+### Project Overview
 
 The Classifying Cybersecurity Incidents🚨 project is a machine learning-based solution designed to enhance the efficiency of Security Operation Centers (SOCs) at Microsoft. The project focuses on building a classification model that accurately predicts the triage grade of cybersecurity incidents, assisting SOC analysts in prioritizing their efforts and responding to threats efficiently.
 
-# The goal is to classify incidents as:
+### The goal is to classify incidents as:
 
 ⁕ True Positive (TP): A confirmed threat.
 
@@ -13,7 +13,7 @@ The Classifying Cybersecurity Incidents🚨 project is a machine learning-based 
 
 ⁕ False Positive (FP): A misidentified threat.
 
-# Key Features & Skills
+### Key Features & Skills
 
 This project allows you to dive deep into several crucial aspects of data science and machine learning:
 
@@ -41,7 +41,7 @@ Implementing strategies like SMOTE, class weights, and ensemble methods to deal 
 
 Fine-tuning model parameters for optimal performance.
 
-##  Business Use Cases
+###  Business Use Cases
 
 The developed solution can significantly improve multiple areas of cybersecurity operations:
 
@@ -61,90 +61,90 @@ Increases the precision of detecting true and false positives using historical d
 
 Reduces false positives, improves threat detection, and ensures swift incident response.
 
-## Project Approach
+### Project Approach
 **<ins>1. Data Exploration and Preprocessing</ins>**
 
-Initial Inspection: 
+**(I) Initial Inspection:** 
 
 Load and examine the train dataset (train.csv) to understand the structure, data types, and distribution of the target variable.
 
-Exploratory Data Analysis (EDA): 
+**(II) Exploratory Data Analysis (EDA):** 
 
 Visualize patterns, identify correlations, and detect anomalies, particularly class imbalances.
 
-# 2. Model Building
+**<ins>2. Model Building</ins>**
  
-Train-Validation Split: 
+**(I) Train-Validation Split:** 
 
 Split the data into training and validation sets for effective model evaluation.
 
-Baseline Model: 
+**(II) Baseline Model:** 
 
 Start with simple models (e.g., Logistic Regression, Decision Trees) to set a performance benchmark.
 
-Advanced Models: 
+**(III) Advanced Models:** 
 
 Use Random Forest, XGBoost, and other sophisticated models for classification.
 
-Cross-Validation: 
+**(IV) Cross-Validation:** 
 
 Implement k-fold cross-validation to ensure robustness.
 
-# 3. Model Evaluation
+**<ins>3. Model Evaluation</ins>**
  
-Performance Metrics: 
+**(I) Performance Metrics:** 
 
 Focus on Macro-F1 Score, Precision, and Recall to measure the model’s ability to generalize to unseen data.
 
-Hyperparameter Tuning: 
+**(II) Hyperparameter Tuning:** 
 
 Use techniques like Grid Search or Random Search to optimize model performance.
 
-Handling Class Imbalance: 
+**(III) Handling Class Imbalance:** 
 
 Apply methods like SMOTE or adjust class weights to handle class imbalance.
 
-# 4. Final Evaluation
+**<ins>4. Final Evaluation</ins>**
  
-Testing: 
+**(I) Testing:** 
 
 Evaluate the final model using the test dataset (test.csv) and report key metrics.
 
-Comparison to Baseline: 
+**(II) Comparison to Baseline:** 
 
 Ensure the model’s performance outperforms the baseline and holds up on unseen data.
 
-## Results:
+### Results:
 
-Model Performance: A highly accurate classification model that predicts cybersecurity incident triage grades (TP, BP, FP).
+**Model Performance**: A highly accurate classification model that predicts cybersecurity incident triage grades (TP, BP, FP).
 
-Feature Analysis: Insights into which features influence model predictions the most.
+**Feature Analysis**: Insights into which features influence model predictions the most.
 
-Model Documentation: Comprehensive process documentation, highlighting each phase from data collection to model evaluation.
+**Model Documentation**: Comprehensive process documentation, highlighting each phase from data collection to model evaluation.
 
-## Evaluation Metrics
+### Evaluation Metrics
 
-Macro-F1 Score: Balances precision and recall, providing a holistic view of performance across all classes.
+**Macro-F1 Score:** Balances precision and recall, providing a holistic view of performance across all classes.
 
-Precision: Measures the proportion of true positive predictions out of all positive predictions.
+**Precision:** Measures the proportion of true positive predictions out of all positive predictions.
 
-Recall: Measures the model’s ability to identify all true positives, ensuring critical incidents are not missed.
+**Recall:** Measures the model’s ability to identify all true positives, ensuring critical incidents are not missed.
 
-## Dataset Overview:
+### Dataset Overview:
                
-               The GUIDE dataset contains cybersecurity incident records annotated with triage grades (TP, BP, FP). 
+The GUIDE dataset contains cybersecurity incident records annotated with triage grades (TP, BP, FP). 
                
-               The data is stratified and includes over 1 million triage-annotated incidents, ensuring a comprehensive representation of real-world security incidents.
+The data is stratified and includes over 1 million triage-annotated incidents, ensuring a comprehensive representation of real-world security incidents.
 
-## Features:
+### Features:
 
-Evidence: Individual pieces of evidence like IP addresses, emails, and user details.
+**Evidence:** Individual pieces of evidence like IP addresses, emails, and user details.
 
-Alerts: Aggregated evidence signaling a potential security incident.
+**Alerts:** Aggregated evidence signaling a potential security incident.
 
-Incidents: A collection of alerts representing a complete security threat scenario.
+**Incidents:** A collection of alerts representing a complete security threat scenario.
 
-## Usage
+### Usage
 
 ♦ Load the data from train.csv and test.csv.
 
@@ -154,16 +154,16 @@ Incidents: A collection of alerts representing a complete security threat scenar
 
 ♦ Check model performance with key metrics (Macro-F1 Score, Precision, Recall).
 
-## Technologies Used
+### Technologies Used
 
-※ Python: Main programming language.
+**※ Python:** Main programming language.
 
-※ Pandas, NumPy: For data manipulation and processing.
+**※ Pandas, NumPy:** For data manipulation and processing.
 
-※ Scikit-Learn: For building and evaluating machine learning models.
+**※ Scikit-Learn:** For building and evaluating machine learning models.
 
-※ XGBoost, LightGBM: Advanced boosting algorithms.
+**※ XGBoost, LightGBM:** Advanced boosting algorithms.
 
-※ Matplotlib, Seaborn: For data visualization and exploratory analysis.
+**※ Matplotlib, Seaborn:** For data visualization and exploratory analysis.
 
-※ SMOTE: Synthetic Minority Over-sampling Technique for class imbalance handling.
+**※ SMOTE:** Synthetic Minority Over-sampling Technique for class imbalance handling.
